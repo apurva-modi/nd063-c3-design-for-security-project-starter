@@ -1,0 +1,30 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+- Cfripper
+- Terrascan
+- Regula
+
+### Example vulnerability
+- Role issues.
+- Encryption issues.
+
+##Scan AMI’s or containers for OS vulnerabilities
+- Aquasec
+- Trivy
+
+### Example vulnerability
+- Password based authentication.
+- OS outdated vulnerabilities
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+- AWS Config
+- AWS Guard Duty
+- AWS Inspector
+- AWS Security Hub
+- CloudWatch Alarm & CloudTrail
+
+
+### Example vulnerability
+- Permissive Security Groups.
+- Checks for default encryption enabled in S3 bucket. 
