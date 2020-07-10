@@ -1,8 +1,10 @@
 # Describe GuardDuty findings that were detected related to the brute force attack
-
-		**GuardDuty not Working**
+> Based on the description of UnauthorizedAccess:EC2/SSHBruteForce,  
+	- GuardDuty detect that an attacker is using brute force attack on port 22. 
 
 
 # Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
-- Based on the GuardDuty documentation, the CloudTrail event logs, VPC Flow Logs and DNS logs are used to detect an attack in the GuardDuty.
-- It also uses Machine Learning techniques to detect an attack. 
+> Based on the GuardDuty documentation, the CloudTrail event logs, VPC Flow Logs and DNS logs are used to detect an attack in the GuardDuty. 
+	- It also uses Machine Learning techniques to detect an attack. 
+	- For the attack performed in this exercise, AWS might have used VPC Flow logs to detect this attack as API calls were not used.
+	- Since, the attack was performed inside a VPC so DNS logs are probably not used.
